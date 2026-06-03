@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+gspread
+google-auth
+pydantic[email]
+resend
+python-multipart
+dotenv

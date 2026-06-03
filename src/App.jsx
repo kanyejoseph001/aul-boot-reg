@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 // ─── Config ────────────────────────────────────────────────────────────────
-const EVENT_NAME = "Your Trade Fair Name";        // ← replace with actual name
-const EVENT_DATE = "Anchor University Lagos, 2026";                 // ← replace with actual date/location
+const EVENT_NAME = "AUL Trade Fair '26";       
+const EVENT_DATE = "Anchor University Lagos, 2026";                
 const BOOTH_PRICE = 25000;                        // ₦ per booth
 const FEE_RATE = 0.05;                            // 5% service fee
 const MAX_BOOTHS = 10;
-const API_URL = "https://your-api.com/register";  // ← replace with FastAPI endpoint
+const API_URL =
+`${import.meta.env.VITE_API_URL}/register`;  // ← replace with FastAPI endpoint
 
 // ─── Helpers ───────────────────────────────────────────────────────────────
 const fmt = (n) =>
